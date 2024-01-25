@@ -1,0 +1,66 @@
+.championships {
+    width: 100%;
+    height: 700px;
+    text-align: start;
+    gap: 50px;
+    flex-wrap: nowrap;
+
+    .championships-title {
+        width: 90%;
+        justify-content: flex-start;
+
+        p {
+            font-size: 22px;
+            font-weight: 700;
+        }
+    }
+
+
+    .championship-cups {
+        width: 100%;
+        justify-content: space-around !important;
+
+        .championship-cup {
+            justify-content: space-around !important;
+            width: 159px;
+            height: 328px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+
+/* Responsive on 880px */
+@media (max-width : 880px) {
+    .championships {
+        position: relative;
+        top: 150px;
+        height: 900px;
+    }
+
+}
+
+/* Responsive on 600px */
+@media (max-width : 600px) {
+    .championships {
+        .championship-cups {
+            .championship-cup {
+                height: 100%;
+
+                img {
+                    width: 120px;
+                    height: 200px;
+                }
+
+            }
+        }
+    }
+
+}

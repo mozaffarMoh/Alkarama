@@ -1,0 +1,35 @@
+.last-news {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+
+    .last-news-text {
+        width: 100%;
+        text-align: start;
+        font-weight: 800;
+        font-size: 20px;
+        padding: 0 30px;
+    }
+
+    .last-news-images .image {
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
+
+/* Responsive on 600px */
+@media (max-width : 600px) {
+    .last-news {
+        .last-news-images .image {
+            width: 100%;
+            height: 250px;
+        }
+    }
+}
