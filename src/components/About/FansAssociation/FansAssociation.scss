@@ -1,0 +1,153 @@
+.fanz {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.fanz-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+
+.fanz-content h3 {
+    color: var(--orange-logo, #F60);
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.fanz-content img {
+    width: 100%;
+    border-radius: 163.237px;
+}
+
+.about-fanz {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.about-fanz h3 {
+    color: #363C32;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.about-fanz .fanz-lines {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.fanz-lines .orange {
+    width: 301px;
+    height: 8px;
+    flex-shrink: 0;
+}
+
+.fanz-lines .blue {
+    width: 154px;
+    height: 8px;
+    flex-shrink: 0;
+    position: relative;
+    right: 10px;
+}
+
+.fanz-lines-end {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+
+.about-fanz p {
+    width: 90%;
+    color: #363C32;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.creaters-fanz {
+    width: 90%;
+    flex-shrink: 0;
+    border-radius: 90.595px;
+    background: var(--blue-logo, #194E95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.creaters-fanz-one,
+.creaters-fanz-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-fanz {
+    width: 90%;
+    position: relative;
+    bottom: 20px;
+}
+
+.creaters-fanz-one {
+    position: relative;
+    margin-right: 16%;
+
+}
+
+.creaters-fanz-one h3,
+.creaters-fanz-one h4,
+.creaters-fanz-two h3,
+.creaters-fanz-two h4 {
+    color: var(--background, #FEFEFE);
+    font-size: 34.357px;
+    font-weight: 400;
+}
+
+.creaters-fanz-content {
+    width: 100%;
+    display: flex;
+
+}
+
+.creaters-fanz-content img {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.creaters-fanz-two .fanz-members {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.fanz-members h4 {
+    margin: 20px;
+}
+
+.orange-circle {
+    display: inline-block;
+    width: 17.178px;
+    height: 17.178px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    fill: #FF6501;
+    background-color: #FF6501;
+}

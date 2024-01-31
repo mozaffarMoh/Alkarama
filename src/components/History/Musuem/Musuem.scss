@@ -1,0 +1,145 @@
+.musuem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    padding: 50px 0px 0px 50px;
+
+    .musuem-template {
+        position: relative;
+        margin-top: 10px;
+        width: 550px;
+        height: 600px;
+
+
+        .musuem-rectangle {
+            position: absolute;
+            top: 0px !important;
+            left: 0px !important;
+            width: 150px;
+            height: 300px;
+            top: 188px;
+            left: 93px;
+            background-color: #F4AA5FE5;
+            z-index: 10;
+        }
+
+        .musuem-image {
+            position: absolute;
+            top: 30px !important;
+            left: 40px !important;
+            width: 400px;
+            height: 500px;
+            top: 222px;
+            left: 144px;
+            z-index: 20;
+        }
+
+        .musuem-circles {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            bottom: 32px;
+            right: 210px;
+            width: 100px;
+            height: 60%;
+
+            .musuem-circle {
+                width: 30px;
+                height: 30px;
+                margin-top: 10px;
+                margin-left: 10px;
+                border-radius: 50%;
+                z-index: 10;
+                background-color: #F4AA5FE5;
+            }
+        }
+    }
+
+    .musuem-text {
+        display: flex;
+        justify-content: flex-end;
+        width: fit-content;
+        height: 300px;
+        width: 400px;
+
+        h1 {
+            color : #3C3732;
+            font-size: 90px;
+            z-index: 2;
+        }
+        
+        .musem-text-rectangle {
+            z-index: 1;
+            position: absolute;
+            right: 100px;
+            top : 100px;
+            width: 200px;
+            height: 450px;
+            
+            background-color: #F4AA5FE5;
+        }
+    }
+}
+
+
+
+/* Responsive on 950px */
+@media (max-width : 950px) {
+    .musuem {
+        flex-direction: column;
+
+        .musuem-template {
+            order: 2;
+        }
+
+        .musuem-text {
+            width: 200px;
+
+            h1 {
+                font-size: 70px;
+                line-height: 100px;
+            }
+            .musem-text-rectangle{
+                position : absolute;
+                top : 0px;
+                right: 0px;
+                width : 100%;
+                height: 300px;
+            }
+        }
+    }
+}
+
+
+/* Responsive on 600px */
+@media (max-width : 600px) {
+    .musuem {
+        overflow-x: hidden;
+
+        .musuem-template {
+            width: 550px;
+            margin-right: 20px;
+
+            .musuem-rectangle {
+                margin-left: 80px;
+            }
+
+            .musuem-image {
+                width: 300px;
+                height: 400px;
+                margin-left: 70px;
+            }
+
+            .musuem-circles {
+                margin-right: 75px;
+                margin-bottom: 100px;
+            }
+
+        }
+    }
+}

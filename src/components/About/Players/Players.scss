@@ -1,0 +1,97 @@
+.players {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.players-rectangles {
+    margin: 40px;
+}
+
+.players-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.players .players-1 h3 {
+    color: var(--dark, #3C3732);
+    font-family: Cairo;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.players .players-1 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.players .players-1 img {
+    width: 280px;
+    height: 58.209px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.players-content {
+    margin: 0px;
+    margin-top: 100px;
+    padding: 0px;
+
+}
+
+.card .images {
+    position: absolute;
+}
+
+.players-content-2 {
+    margin-top: 50px;
+}
+
+.card-players-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 20%;
+    padding: 0px;
+}
+
+
+.card-players-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: Lemonada;
+    font-size: 33.001px;
+    font-weight: 380;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-details {
+    width: 70px;
+    height: 70px;
+    line-height: 23px;
+    background-image: url(../../../assets/images/About/playerDetails.png);
+    background-size: cover;
+
+    p {
+        font-size: 22px;
+        font-weight: 800;
+        color: black;
+        margin-left: 8px;
+    }
+}

@@ -1,0 +1,164 @@
+.footer {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgba(51, 55, 69, 0.90), #333745E5), url(../../assets/images/Footer/background.png);
+    padding-top: 40px;
+    color: white;
+}
+
+.row {
+    height: 100%;
+}
+
+.col-md-12 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lin1 {
+    width: 90%;
+    margin-bottom: 33px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #CAD8DB;
+}
+
+.text-con {
+    /* width: 1000xp;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: flex-start;
+    width: 80%;
+    gap: 200px;
+}
+
+
+
+.alka {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.alka-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 210px;
+}
+
+.footer-logo-icon {
+    margin-left: 70px;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+
+.down {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.googl {
+    margin-bottom: 5px;
+}
+
+.all-f {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.lin2 {
+    width: 90%;
+    margin-bottom: 33px;
+
+    height: 1px;
+    flex-shrink: 0;
+    background: #CAD8DB;
+}
+
+.te p {
+    color: #CAD8DB;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all-im {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all-im img {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    fill: #CAD8DB;
+}
+
+.social-icon {
+    margin-left: 20px;
+}
+
+
+
+@media(max-width:950px) {
+    .text-con {
+        gap: 60px;
+        width: 100%;
+        padding: 30px;
+    }
+
+
+    .footer-logo-icon {
+        display: none;
+    }
+
+
+    .alka-content {
+        height: fit-content;
+    }
+}
+
+@media(max-width:500px) {
+    .text-con {
+        gap: 10px;
+    }
+
+    h5,
+    p,
+    h6 {
+        font-size: 12px;
+    }
+
+    .down img {
+        width: 75px;
+    }
+
+    .all-im img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+}

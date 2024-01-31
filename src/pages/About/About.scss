@@ -1,0 +1,493 @@
+.about {
+    margin-top: 80px;
+    overflow-x: hidden;
+}
+
+
+
+/* Large */
+@media (min-width:1200px) {
+    .fanz {
+
+        margin-top: 200px;
+    }
+
+    .h {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .fanz-lines-end .orange {
+        width: 801px;
+        height: 8px;
+        flex-shrink: 0;
+    }
+
+    .fanz-lines-end .blue {
+        width: 194px;
+        height: 8px;
+        flex-shrink: 0;
+        position: relative;
+        right: 10px;
+    }
+
+}
+
+/* Meduim 1*/
+@media (max-width:1199px) {
+
+    .card-players-content {
+        margin-bottom: 70px;
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .card-details {
+        width: 50px;
+        height: 50px;
+
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .videos-fanz-second p {
+
+        font-size: 30.259px;
+    }
+
+    .fanz-lines-end .orange {
+        width: 301px;
+        height: 8px;
+        flex-shrink: 0;
+    }
+
+    .fanz-lines-end .blue {
+        width: 154px;
+        height: 8px;
+        flex-shrink: 0;
+        position: relative;
+        right: 10px;
+    }
+
+
+    .creaters-fanz-one h3,
+    .creaters-fanz-one h4,
+    .creaters-fanz-two h3,
+    .creaters-fanz-two h4 {
+        font-size: 30.357px;
+    }
+
+    .fanz-content h3 {
+        font-size: 34px;
+
+    }
+
+    .about-content {
+        width: 97%;
+        height: 30%;
+        top: 10px;
+        right: 20px;
+
+    }
+
+    .about-2 .images img {
+        width: 480px;
+        height: 480px;
+    }
+
+    .h {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .heads .captin {
+        width: 445.769px;
+        height: 459.272px;
+        flex-shrink: 0;
+        position: relative;
+        bottom: 465px;
+    }
+
+    .h {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .creaters-fanz-one {
+        margin-right: 12%;
+    }
+
+    .videos-fanz-content {
+        justify-content: space-between;
+    }
+}
+
+/* Meduim 2*/
+@media (min-width: 768px) and (max-width:991px) {
+    .fanz-lines-end .orange {
+        width: 301px;
+        height: 8px;
+        flex-shrink: 0;
+    }
+
+    .fanz-lines-end .blue {
+        width: 154px;
+        height: 8px;
+        flex-shrink: 0;
+        position: relative;
+        right: 10px;
+    }
+
+    .fanz-content h3 {
+        font-size: 44px;
+
+    }
+
+    .creaters-fanz-one {
+        margin-right: 6%;
+    }
+
+    .card-team-content .card-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-team-content .card-title img {
+        width: 90%;
+    }
+
+    .card-team-content p {
+        font-size: 30px;
+    }
+
+    .heads .captin {
+        width: 345.769px;
+        height: 359.272px;
+        flex-shrink: 0;
+        position: relative;
+        bottom: 365px;
+    }
+
+    .player-1 {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .h {
+        width: 100%;
+        height: 78vh;
+    }
+
+    .about-content {
+        width: 97%;
+        height: 30%;
+        top: 10px;
+        right: 20px;
+
+    }
+
+    .players {
+        margin-top: 0px;
+    }
+
+    .team .team-1 img {
+        width: 250px;
+        height: 58.209px;
+        flex-shrink: 0;
+        margin-top: 20px;
+    }
+
+    .creaters-fanz-one h3,
+    .creaters-fanz-one h4,
+    .creaters-fanz-two h3,
+    .creaters-fanz-two h4 {
+        font-size: 24.357px;
+    }
+
+    .videos-fanz-first {
+        width: 55%;
+        height: 306.888px;
+        flex-shrink: 0;
+        border-radius: 9.071px;
+    }
+
+    .videos-fanz-second {
+        width: 55%;
+        height: 305.959px;
+        flex-shrink: 0;
+        border-radius: 9.071px;
+        background: #F5F5F5;
+        box-shadow: 0px 9.071px 25.927px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .videos-fanz-second p {
+
+        font-size: 25.259px;
+    }
+}
+
+/* Small 1*/
+@media (max-width: 767px) {
+    .about-slide {
+
+        .about-content {
+            h3 {
+                font-size: 30px;
+            }
+
+            h4 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .more img {
+            width: 40px;
+            height: 40px;
+        }
+
+
+        .circles img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .videos-fanz-second p {
+        font-size: 20.259px;
+    }
+
+    .videos-fanz-first {
+        width: 70%;
+    }
+
+    .fanz-lines-end .orange {
+        width: 301px;
+        height: 8px;
+        flex-shrink: 0;
+    }
+
+    .fanz-lines-end .blue {
+        width: 154px;
+        height: 8px;
+        flex-shrink: 0;
+        position: relative;
+        right: 10px;
+    }
+
+    .creaters-fanz-one {
+        margin-right: -4%;
+    }
+
+    .creaters-fanz-one h3,
+    .creaters-fanz-one h4,
+    .creaters-fanz-two h3,
+    .creaters-fanz-two h4 {
+        font-size: 18.357px;
+    }
+
+    .fanz-content h3 {
+        font-size: 35px;
+
+    }
+
+    .card-team-content .card-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-team-content .card-title img {
+        width: 90%;
+    }
+
+    .card-team-content p {
+        font-size: 20px;
+    }
+
+    .about-2 .images img {
+        width: 80%;
+        /* height: 150px; */
+    }
+
+    .about-content {
+        width: 97%;
+        height: 30%;
+        top: 10px;
+        right: 20px;
+
+    }
+
+    .card:hover .player-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Cairo;
+        font-size: 19.547px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .heads .captin {
+        width: 249.769px;
+        height: 300.272px;
+        flex-shrink: 0;
+        position: relative;
+        bottom: 305px;
+    }
+
+    .lines .orange {
+        width: 211px !important;
+        height: 6px;
+    }
+
+    .lines .blue {
+        width: 124px;
+        height: 6px;
+
+    }
+
+    .h {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .player {
+
+        width: 230.721px;
+    }
+
+    .player-1 {
+
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .team .team-1 img {
+        width: 200px;
+        height: 58.209px;
+        flex-shrink: 0;
+        /* margin-left: 100px; */
+        margin-top: 20px;
+    }
+
+    .card-team-content {
+        display: block;
+        width: 100%;
+        /* height: 3%; */
+        flex-wrap: wrap;
+        position: absolute;
+        bottom: 20%;
+        padding: 0px;
+    }
+
+    .videos-fanz-content {
+        flex-direction: column;
+        padding: 20px;
+
+        .videos-fanz-first {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 300px;
+            }
+
+            .videos-circle {
+                width: 100px;
+                height: 100px;
+                right: 38%;
+            }
+        }
+
+        .videos-fanz-second {
+            width: 100%;
+        }
+    }
+}
+
+/* Small 2*/
+@media (max-width: 570px) {
+    .card-players-content {
+        margin: 0px;
+
+        p {
+            font-size: 50px;
+        }
+    }
+
+    .card-details {
+        width: 70px;
+        height: 70px;
+
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .about-fanz p {
+        font-size: 16px;
+    }
+
+    .about-fanz h3 {
+        font-size: 32px;
+    }
+
+    .about-2 .images img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 100px;
+        margin-right: 50px;
+    }
+
+    .lines {
+        margin-bottom: 50px;
+    }
+
+    .creaters-fanz-content {
+        h3 {
+            font-size: 16px;
+            margin-left: 20px;
+        }
+
+        p {
+            font-size: 10px;
+        }
+    }
+
+
+
+    .heads .captin {
+        width: 153.769px;
+        height: 159.272px;
+        flex-shrink: 0;
+        position: relative;
+        bottom: 160px;
+    }
+
+    .card-team-content p {
+        font-size: 50px;
+    }
+
+    .team .team-1 div {
+        display: none;
+    }
+}

@@ -1,4 +1,5 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
 
@@ -7,6 +8,10 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: 'Cairo';
+}
+
+a {
+  text-decoration: none;
 }
 
 .flexCenter {
@@ -22,14 +27,15 @@
   align-items: center;
 }
 
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-/* Zeina styles*/
+
+/* Zeina colors */
 :root {
   --main-color: rgba(16, 39, 143, 1);
   --second-color: rgba(255, 102, 0, 1);
-  caret-color: var(--main-color);
-}
-
-::selection {
-  background-color: var(--main-color);
 }

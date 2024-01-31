@@ -5,7 +5,7 @@ import news4 from "../../../assets/images/News/news-4.png";
 
 const NewsSlide = () => {
   return (
-    <div id="carouselExampleCaptions" className="carousel slide">
+    <div id="carouselExampleCaptions" className="carousel slide newsSlide">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={newsSlideImage} className="w-100 back" alt="..." />
