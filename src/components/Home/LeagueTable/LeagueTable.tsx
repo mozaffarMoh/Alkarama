@@ -1,11 +1,12 @@
 import "./LeagueTable.scss";
+import tableMenu from "../../../assets/images/Home/Table.png";
 
 const LeagueTable = () => {
   return (
     <div className="league-table">
-      <div className="league-table-header flexCenter">
+      <div className="league-table-header flexBetween ">
         <p>جدول الدوري السوري</p>
-        <img src="./images/Home/Table.png" alt="" />
+        <img src={tableMenu} alt="" />
       </div>
       <table>
         <thead>
