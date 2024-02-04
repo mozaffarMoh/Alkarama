@@ -6,7 +6,6 @@ import facebookIcon from "../../assets/images/Contact/facebook.png";
 import instagramIcon from "../../assets/images/Contact/instagram.png";
 import youtubeIcon from "../../assets/images/Contact/youtube.png";
 import logoIcon from "../../assets/images/Contact/logo.png";
-import Footer from "../../components/Footer/Footer";
 
 const Contact = () => {
   return (
@@ -76,7 +75,6 @@ const Contact = () => {
             <img src={logoIcon} alt="" />
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );

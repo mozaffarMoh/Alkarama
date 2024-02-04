@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "./assets/styles/flexBox.scss";
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
 
@@ -14,36 +15,6 @@ a {
   text-decoration: none;
 }
 
-.flexCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flexCenterColumn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.flexBetween {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flexStart {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.flexEnd {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
 
 
 /* Zeina colors */

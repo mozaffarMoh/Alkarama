@@ -8,6 +8,11 @@ const Header = () => {
   const [showHeaderText, setShowHeaderText] = React.useState(false);
   const [headerActive, setHeaderActive] = React.useState("main");
 
+  /*   Scroll to the top of the page */
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [headerActive]);
+
   return (
     <div className="header flexBetween">
       <div

@@ -1,0 +1,260 @@
+.club-titles {
+    padding: 30px;
+
+    h1 {
+        color: #FF6600;
+        font-size: 50px;
+        margin: 100px;
+    }
+
+    .club-titles-years {
+        background-color: #194E95;
+        border-radius: 10px;
+        color: #fff;
+        font-family: Inter;
+        align-items: center;
+        font-size: 50px;
+        width: 100%;
+
+        .year {
+            width: 33%;
+            height: 110px;
+
+            p {
+                margin-top: 10px;
+            }
+        }
+
+        .year-white {
+            background-color: whitesmoke;
+            color: black;
+        }
+    }
+
+    .club-titles-details {
+        width: 100%;
+        height: 100%;
+
+        .club-titles-details-cup {
+            height: 100%;
+            padding: 20px;
+
+            img {
+                width: 280px;
+                height: 500px;
+            }
+        }
+
+        .club-titles-details-text {
+            font-size: 30px;
+            height: 450px;
+            gap: 20px;
+            overflow-y: auto;
+
+            .details-year {
+                background-color: #194E95;
+                color: white;
+                width: 150px;
+                height: 50px;
+                border-radius: 5px;
+            }
+
+            .details-text {
+                p {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+
+    .club-titles-images {
+        width: 100%;
+        height: 100%;
+
+        .images-left {
+            width: 100%;
+            height: 100%;
+            gap: 40px;
+
+            img {
+                width: 90%;
+                height: 330px;
+            }
+        }
+
+        .images-right {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 700px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width : 900px) {
+    .club-titles {
+        .club-titles-years {
+            .year {
+                height: fit-content;
+                font-size: 25px;
+            }
+        }
+
+        .club-titles-details {
+            .club-titles-details-cup {
+                width: 130px;
+
+                img {
+                    width: 180px;
+                    position: relative;
+                    left: 50px;
+                }
+            }
+
+            .club-titles-details-text {
+                width: 100%;
+
+                .details-text {
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .club-titles-images {
+            flex-direction: column;
+
+            .images-left,
+            .images-right {
+                gap: 0px;
+
+                img {
+                    width: 100%;
+                    height: 500px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    .title-lable {
+        width: 100%;
+    }
+
+    .title-years1 {
+        background-color: #fff;
+        color: #000;
+        width: 30%;
+    }
+
+    .title-year {
+        margin: 5% auto;
+    }
+
+    .bor-left {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .bor-right {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .third {
+        margin: 10% auto;
+    }
+
+    .left-third {
+        width: 70%;
+        padding: 10px;
+        direction: rtl;
+        font-family: Cairo;
+        font-weight: 400;
+    }
+
+    .history-third {
+        font-size: 40px;
+        background-color: #194E95;
+        width: 17%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        align-items: center;
+        color: #fff;
+    }
+
+    .pragraph-third {
+        font-size: 35px;
+        margin-top: 20px;
+        width: 87%;
+    }
+
+    .right-third {
+        width: 17%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        background-color: #194E95;
+        margin-left: 70px;
+        margin-top: 10px;
+        box-shadow: 0px 10px 10px #4b4b4b;
+    }
+
+    .right-third img {
+        height: 110%;
+        margin-top: -30px;
+        margin-left: 55px;
+    }
+
+    .last-third {
+        display: flex;
+        margin-top: 80px;
+        margin: 50px;
+    }
+
+    .left-image .top-image img {
+        width: 90%;
+    }
+
+    .left-image .bottom-image img {
+        width: 90%;
+        height: 90%;
+        margin-top: 70px;
+    }
+
+    .right-image img {
+        width: 100%;
+        height: 90%;
+    }
+
+    .fourth {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fourth h1 {
+        color: #F60;
+        font-family: Cairo;
+    }
+
+} */

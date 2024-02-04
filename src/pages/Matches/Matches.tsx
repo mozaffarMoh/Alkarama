@@ -1,5 +1,4 @@
 import "./Matches.scss";
-import Footer from "../../components/Footer/Footer";
 import MatchesSlide from "../../components/Matches/MatchesSlide/MatchesSlide";
 import AllMatches from "../../components/Matches/AllMatches/AllMatches";
 import LeagueTable from "../../components/Home/LeagueTable/LeagueTable";
@@ -10,7 +9,6 @@ const Matches = () => {
       <MatchesSlide />
       <AllMatches />
       <LeagueTable />
-      <Footer />
     </div>
   );
 };

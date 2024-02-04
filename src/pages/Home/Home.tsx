@@ -6,7 +6,6 @@ import LeagueTable from "../../components/Home/LeagueTable/LeagueTable";
 import NextMatches from "../../components/Home/NextMatches/NextMatches";
 import Championships from "../../components/Home/Champoinships/Champoinships";
 import BestGoals from "../../components/Home/BestGoals/BestGoals";
-import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -18,7 +17,6 @@ const Home = () => {
       <NextMatches />
       <Championships />
       <BestGoals />
-      <Footer />
     </div>
   );
 };

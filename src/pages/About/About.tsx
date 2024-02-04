@@ -5,7 +5,6 @@ import FansAssociation from "../../components/About/FansAssociation/FansAssociat
 import Players from "../../components/About/Players/Players";
 import Staff from "../../components/About/Staff/Staff";
 import Strategy from "../../components/About/Strategy/Strategy";
-import Footer from "../../components/Footer/Footer";
 import "./About.scss";
 
 const About = () => {
@@ -18,7 +17,6 @@ const About = () => {
       <Strategy />
       <FansAssociation />
       <BestShots />
-      <Footer />
     </div>
   );
 };

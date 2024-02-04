@@ -7,6 +7,7 @@ import Matches from "./pages/Matches/Matches";
 import About from "./pages/About/About";
 import History from "./pages/History/History";
 import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/history" element={<History />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
