@@ -12,7 +12,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="Alkarama">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
