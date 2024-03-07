@@ -1,18 +1,24 @@
 import "./Header.scss";
 import logo from "../../assets/images/logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import React from "react";
 import { LinksArray } from "./LinksArray";
 
 const Header = () => {
   const [showHeaderText, setShowHeaderText] = React.useState(false);
-  const [headerActive, setHeaderActive] = React.useState("main");
+  const [scrollToTop, setScrollToTop] = React.useState(false);
 
   /*   Scroll to the top of the page */
   React.useEffect(() => {
     window.scrollTo(0, 0);
-  }, [headerActive]);
+  }, [scrollToTop]);
 
+  const handleChangeActive: any = (active: any) => {
+    if (active.isActive) {
+      return "active-red";
+    }
+  };
+  
   return (
     <div className="header flexBetween">
       <div
@@ -22,16 +28,14 @@ const Header = () => {
       >
         {LinksArray.map((item, index) => {
           return (
-            <Link
+            <NavLink
               key={index}
               to={item.path}
-              onClick={() => setHeaderActive(item.activeValue)}
-              className={`${
-                headerActive === item.activeValue && "active-red "
-              }`}
+              className={(active: any) => handleChangeActive(active)}
+              onClick={() => setScrollToTop(!scrollToTop)}
             >
               {item.name}
-            </Link>
+            </NavLink>
           );
         })}
       </div>

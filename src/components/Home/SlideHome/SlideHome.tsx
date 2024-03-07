@@ -1,43 +1,38 @@
 import "./SlideHome.scss";
-import slideImage from "../../../assets/images/Home/slide.png";
+import endPoints from "../../../api/endPoints";
+import useGet from "../../../api/useGet";
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
 
 const SlideHome = () => {
+  const [data] = useGet(endPoints.news);
+
   return (
     <div className="slide-home">
-      <div id="carouselExampleCaptions" className="carousel slide">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={slideImage} className="d-block w-100" alt="..." />
-            <div className="carousel-caption">
-              <p>اكتشف المزيد</p>
-            </div>
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
+      <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        slidesPerView={1}
+        navigation
+        speed={800}
+        pagination={{ clickable: true }}
+      >
+        {data &&
+          data.map((item: any, index) => {
+            return (
+              <SwiperSlide className="home-slide-item" key={index}>
+                <img src={item.image} />
+                <p>{item.content}</p>
+              </SwiperSlide>
+            );
+          })}
+      </Swiper>
     </div>
   );
 };

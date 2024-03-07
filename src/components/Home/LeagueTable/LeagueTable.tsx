@@ -1,7 +1,11 @@
 import "./LeagueTable.scss";
 import tableMenu from "../../../assets/images/Home/Table.png";
+import useGet from "../../../api/useGet";
+import endPoints from "../../../api/endPoints";
 
 const LeagueTable = () => {
+  const [data]: any = useGet(endPoints.leagueTable);
+
   return (
     <div className="league-table">
       <div className="league-table-header flexBetween ">
@@ -23,28 +27,24 @@ const LeagueTable = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>2</td>
-            <td>2</td>
-            <td>2</td>
-            <td>2</td>
-            <td>2</td>
-            <td>2</td>
-            <td>2</td>
-            <td>2</td>
-          </tr>
+          {data &&
+            data.map((item: any) => {
+              return item.standings.map((ele: any, index: number) => {
+                return (
+                  <tr key={index}>
+                    <td>{ele["club name"]}</td>
+                    <td>{ele.play}</td>
+                    <td>{ele.lose}</td>
+                    <td>{ele.draw}</td>
+                    <td>{ele.win}</td>
+                    <td>1</td>
+                    <td>{ele.points}</td>
+                    <td>1</td>
+                    <td>1</td>
+                  </tr>
+                );
+              });
+            })}
         </tbody>
       </table>
     </div>
