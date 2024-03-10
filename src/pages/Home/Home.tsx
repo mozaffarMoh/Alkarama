@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div className="home flexCenterColumn">
-      <SlideHome data={data} />
+      <SlideHome/>
       <CurrentMatch data={data} />
       <LastNews />
       <LeagueTable />

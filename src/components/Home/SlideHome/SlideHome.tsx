@@ -9,7 +9,7 @@ import {
 } from "swiper/modules";
 import slide from "../../../assets/images/Home/slide.png";
 
-const SlideHome = ({ data }: any) => {
+const SlideHome = () => {
   return (
     <div className="slide-home">
       <Swiper
