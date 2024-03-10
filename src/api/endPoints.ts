@@ -1,6 +1,7 @@
 const endPoints = {
-    news: '/view/type/informations?type=news',
-    leagueTable: '/view/sessions',
+    news: '/news/all',
+    leagueTable: '/standing',
+    allMatches: '/standing',
 }
 
 

@@ -1,3 +1,3 @@
-const api = 'https://in.cliprz.org/api';
+const api = 'https://alkarameh.cliprz.org/api';
 
 export default api;

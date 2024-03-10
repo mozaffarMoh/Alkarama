@@ -17,10 +17,10 @@ const SlideHome = () => {
     <div className="slide-home">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000 }}
+        speed={800}
         slidesPerView={1}
         navigation
-        speed={800}
         pagination={{ clickable: true }}
       >
         {data &&

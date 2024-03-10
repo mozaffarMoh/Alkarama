@@ -1,0 +1,6715 @@
+{
+	"info": {
+		"_postman_id": "16686b50-c2a9-4144-ae46-75615b3711ef",
+		"name": "AlkaramaProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31151636"
+	},
+	"item": [
+		{
+			"name": "Museum",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/museum",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"museum"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/museum",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"museum"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:30:09 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"about_club\": [\n            {\n                \"uuid\": \"t3\",\n                \"title\": \"title\",\n                \"content\": \"content\",\n                \"image\": \"url\",\n                \"type\": \"regular\",\n                \"date\": \"منذ 5 أيام\",\n                \"statistics\": [],\n                \"videos\": []\n            }\n        ],\n        \"strategies\": [\n            {\n                \"uuid\": \"t2\",\n                \"title\": \"title\",\n                \"content\": \"content\",\n                \"image\": \"url\",\n                \"type\": \"strategy\",\n                \"date\": \"منذ 5 أيام\",\n                \"statistics\": [],\n                \"videos\": []\n            }\n        ],\n        \"bosses\": [\n            {\n                \"uuid\": \"t1\",\n                \"name\": \"majd\",\n                \"start_year\": \"2024\",\n                \"image\": \"url\"\n            },\n            {\n                \"uuid\": \"t2\",\n                \"name\": \"rifat\",\n                \"start_year\": \"2020\",\n                \"image\": \"url\"\n            },\n            {\n                \"uuid\": \"t3\",\n                \"name\": \"suliman\",\n                \"start_year\": \"2010\",\n                \"image\": \"url\"\n            }\n        ],\n        \"primes\": [\n            {\n                \"uuid\": \"t1\",\n                \"name\": \"الدوري السوري\",\n                \"description\": \"any desc\",\n                \"image\": \"url\",\n                \"type\": \"club\",\n                \"seasone\": \"2023/2024\",\n                \"sport\": \"football\"\n            },\n            {\n                \"uuid\": \"t2\",\n                \"name\": \"هداف الدوري\",\n                \"description\": \"any desc\",\n                \"image\": \"url\",\n                \"type\": \"personal\",\n                \"seasone\": \"2023/2024\",\n                \"sport\": \"football\"\n            },\n            {\n                \"uuid\": \"t3\",\n                \"name\": \"الدوري السوري\",\n                \"description\": \"any desc\",\n                \"image\": \"url\",\n                \"type\": \"club\",\n                \"seasone\": \"2023/2024\",\n                \"sport\": \"basketball\"\n            }\n        ],\n        \"best_goals\": [\n            {\n                \"uuid\": \"t1\",\n                \"url\": \"url\",\n                \"description\": \"any desc\"\n            }\n        ]\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stuff",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/stuff",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"stuff"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/stuff",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"stuff"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:03:10 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"boss\": {\n            \"uuid\": \"t1\",\n            \"name\": \"majd\",\n            \"start_year\": \"2024\",\n            \"image\": \"url\"\n        },\n        \"attack\": [\n            {\n                \"uuid\": \"t2\",\n                \"name\": \"suliman\",\n                \"high\": \"170cm\",\n                \"play\": \"CF\",\n                \"number\": \"10\",\n                \"born\": \"2024 فبراير 1\",\n                \"from\": \"syria\",\n                \"first_club\": \"alkarama\",\n                \"career\": \"any\",\n                \"image\": \"url\"\n            }\n        ],\n        \"middle\": [\n            {\n                \"uuid\": \"t3\",\n                \"name\": \"rifat\",\n                \"high\": \"170cm\",\n                \"play\": \"CM\",\n                \"number\": \"8\",\n                \"born\": \"2024 فبراير 1\",\n                \"from\": \"syria\",\n                \"first_club\": \"alkarama\",\n                \"career\": \"paly\",\n                \"image\": \"url\"\n            }\n        ],\n        \"defence\": [],\n        \"goal_keepers\": [\n            {\n                \"uuid\": \"t1\",\n                \"name\": \"majd\",\n                \"high\": \"170cm\",\n                \"play\": \"GK\",\n                \"number\": \"1\",\n                \"born\": \"2024 فبراير 1\",\n                \"from\": \"syria\",\n                \"first_club\": \"الكرامة\",\n                \"career\": \"play many times\",\n                \"image\": \"url\"\n            }\n        ],\n        \"managers\": [\n            {\n                \"uuid\": \"t1\",\n                \"name\": \"majd\",\n                \"work\": \"مدير رياضي\",\n                \"image\": \"url\"\n            }\n        ],\n        \"coaches\": [\n            {\n                \"uuid\": \"t2\",\n                \"name\": \"suliman\",\n                \"work\": \"المدير الفني\",\n                \"image\": \"url\"\n            },\n            {\n                \"uuid\": \"t3\",\n                \"name\": \"rifat\",\n                \"work\": \"امدرب\",\n                \"image\": \"url\"\n            }\n        ],\n        \"wears\": {\n            \"uuid\": \"t1\",\n            \"image\": \"url\"\n        }\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Seasons",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/seasone/all",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"seasone",
+								"all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/seasone/all",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"seasone",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:03:36 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"uuid\": \"t1\",\n            \"name\": \"2023/2024\",\n            \"start_date\": \"2024-02-01\",\n            \"end_date\": \"2024-02-29\"\n        }\n    ],\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Standings",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "seasone",
+									"value": "39882892-af4f-4d6c-af9d-7a85458b8635",
+									"type": "text"
+								},
+								{
+									"key": "sport",
+									"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/standing",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"standing"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "all",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "seasone",
+											"value": "t1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/standing",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"standing"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:04:02 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"football\": [\n            {\n                \"uuid\": \"t1\",\n                \"name\": \"الوثبة\",\n                \"win\": \"1\",\n                \"lose\": \"0\",\n                \"draw\": \"0\",\n                \"+/-\": \"0\",\n                \"points\": \"3\",\n                \"play\": \"0\"\n            },\n            {\n                \"uuid\": \"t2\",\n                \"name\": \"الكرامة\",\n                \"win\": \"0\",\n                \"lose\": \"1\",\n                \"draw\": \"0\",\n                \"+/-\": \"0\",\n                \"points\": \"0\",\n                \"play\": \"0\"\n            }\n        ],\n        \"basketball\": []\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Matches",
+			"item": [
+				{
+					"name": "finished",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "sport",
+									"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/matches/finished",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"matches",
+								"finished"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "finished",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/matches/finished",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"matches",
+										"finished"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:41:25 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"football\": [\n            {\n                \"uuid\": \"t1\",\n                \"date\": \"2024/2/06 ثلاثاء\",\n                \"time\": \"م 2:38\",\n                \"plan\": \"url\",\n                \"channel\": \"syria drama\",\n                \"round\": \"1\",\n                \"play_ground\": \"البلدي\",\n                \"team1\": {\n                    \"name\": \"الوثبة\",\n                    \"logo\": \"url\"\n                },\n                \"team2\": {\n                    \"name\": \"الكرامة\",\n                    \"logo\": \"url\"\n                },\n                \"result\": {\n                    \"first_team\": \"1\",\n                    \"second_team\": \"2\"\n                },\n                \"player\": null\n            }\n        ],\n        \"basketball\": []\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						},
+						{
+							"name": "newfinished",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/matches/finished?sport=ccbb4fbd-fa72-4e19-a122-f652dc99ecd7",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"matches",
+										"finished"
+									],
+									"query": [
+										{
+											"key": "sport",
+											"value": "ccbb4fbd-fa72-4e19-a122-f652dc99ecd7"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 11 Feb 2024 23:17:50 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"football\": [\n            {\n                \"uuid\": \"091b7ef0-ac3d-43d4-8bb0-94f25183ce92\",\n                \"date\": \"2023/11/01 أربعاء\",\n                \"time\": \"ص 10:20\",\n                \"plan\": \"https://alkarameh.cliprz.org/public/storage/plans/a2f10e2d-7c84-498d-8448-8a8fcd807f9f-plan.webp\",\n                \"channel\": \"syria drama\",\n                \"round\": \"1\",\n                \"play_ground\": \"any\",\n                \"team1\": {\n                    \"uuid\": \"0e7b8200-c317-48bd-888e-ba31e91de71f\",\n                    \"name\": \"الكرامة\",\n                    \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/336d4f71-392f-47ff-8068-b59d369389a6-club.png\"\n                },\n                \"team2\": {\n                    \"uuid\": \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\",\n                    \"name\": \"الوثبة\",\n                    \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/f71b216f-ca45-4bf5-83f4-50a1108a7e67-club.avif\"\n                },\n                \"result\": {\n                    \"0e7b8200-c317-48bd-888e-ba31e91de71f\": \"1\",\n                    \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\": \"2\"\n                },\n                \"player\": null\n            },\n            {\n                \"uuid\": \"beca6747-e89d-42b7-a7ad-00fafbf77d2e\",\n                \"date\": \"2023/11/01 أربعاء\",\n                \"time\": \"ص 10:20\",\n                \"plan\": \"https://alkarameh.cliprz.org/public/storage/plans/6800c544-1ac4-4c0a-b9d1-86b5dcc2e08c-plan.png\",\n                \"channel\": \"syria drama\",\n                \"round\": \"10\",\n                \"play_ground\": \"any\",\n                \"team1\": {\n                    \"uuid\": \"0e7b8200-c317-48bd-888e-ba31e91de71f\",\n                    \"name\": \"الكرامة\",\n                    \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/336d4f71-392f-47ff-8068-b59d369389a6-club.png\"\n                },\n                \"team2\": {\n                    \"uuid\": \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\",\n                    \"name\": \"الوثبة\",\n                    \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/f71b216f-ca45-4bf5-83f4-50a1108a7e67-club.avif\"\n                },\n                \"result\": null,\n                \"player\": null\n            },\n            {\n                \"uuid\": \"a5e5f4fc-3b79-4be2-baf2-7ab8d61ebbe2\",\n                \"date\": \"2024/9/01 أحد\",\n                \"time\": \"ص 12:00\",\n                \"plan\": \"https://alkarameh.cliprz.org/public/storage/plans/b33fd380-0e36-499e-8619-e32995090c9c-plan.png\",\n                \"channel\": \"syria drama\",\n                \"round\": \"11\",\n                \"play_ground\": \"any\",\n                \"team1\": {\n                    \"uuid\": \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\",\n                    \"name\": \"الوثبة\",\n                    \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/f71b216f-ca45-4bf5-83f4-50a1108a7e67-club.avif\"\n                },\n                \"team2\": {\n                    \"uuid\": \"0e7b8200-c317-48bd-888e-ba31e91de71f\",\n                    \"name\": \"الكرامة\",\n                    \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/336d4f71-392f-47ff-8068-b59d369389a6-club.png\"\n                },\n                \"result\": null,\n                \"player\": null\n            }\n        ]\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "not_started",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "sport",
+									"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/matches/not/started",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"matches",
+								"not",
+								"started"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "not_started",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/matches/not/started",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"matches",
+										"not",
+										"started"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:05:07 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"football\": [\n            {\n                \"uuid\": \"t2\",\n                \"date\": \"2024/2/06 ثلاثاء\",\n                \"time\": \"م 2:39\",\n                \"plan\": \"url\",\n                \"channel\": \"syria drama\",\n                \"round\": \"2\",\n                \"play_ground\": \"السبيل\",\n                \"team1\": {\n                    \"name\": \"الوثبة\",\n                    \"logo\": \"url\"\n                },\n                \"team2\": {\n                    \"name\": \"الكرامة\",\n                    \"logo\": \"url\"\n                },\n                \"result\": null,\n                \"player\": null\n            }\n        ],\n        \"basketball\": [\n            {\n                \"uuid\": \"t3\",\n                \"date\": \"2024/2/06 ثلاثاء\",\n                \"time\": \"م 2:40\",\n                \"plan\": \"url\",\n                \"channel\": \"syria drama\",\n                \"round\": \"5\",\n                \"play_ground\": \"الحكمة\",\n                \"team1\": {\n                    \"name\": \"الوثبة\",\n                    \"logo\": \"url\"\n                },\n                \"team2\": {\n                    \"name\": \"الكرامة\",\n                    \"logo\": \"url\"\n                },\n                \"result\": null,\n                \"player\": null\n            }\n        ]\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						},
+						{
+							"name": "newnot_strated",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "sport",
+											"value": "76694895-b12b-40d6-8ddd-2ed7b7f709ee",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/matches/not/started",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"matches",
+										"not",
+										"started"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 11 Feb 2024 23:20:27 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"football\": [\n            {\n                \"uuid\": \"7835cc7f-b4b7-48f4-b414-c0012cc2812d\",\n                \"date\": \"2024/4/01 اثنين\",\n                \"time\": \"ص 5:10\",\n                \"plan\": \"https://alkarameh.cliprz.org/public/storage/plans/af3f2666-8e56-49ef-a9a5-2eed7aeb0fb8-plan.avif\",\n                \"channel\": \"syria drama\",\n                \"round\": \"10\",\n                \"play_ground\": \"any\",\n                \"team1\": {\n                    \"uuid\": \"1561e39e-01bc-46bb-8dad-d74e906b82f0\",\n                    \"name\": \"الوثبة\",\n                    \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/03fb27ed-ea39-4114-a74d-8930b870b33e-club.avif\"\n                },\n                \"team2\": {\n                    \"uuid\": \"017c4d00-e9e0-4a88-bdc0-30d4a60eed1d\",\n                    \"name\": \"الكرامة\",\n                    \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/0acdc910-992d-418d-8801-e2460aa0f3b0-club.webp\"\n                },\n                \"result\": null,\n                \"player\": null\n            }\n        ]\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "next_one",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "sport",
+									"value": "385de00b-67e6-4f25-b4a0-2b3eaed40199",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/next/matche",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"next",
+								"matche"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "next_one",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/football/next/matche",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"football",
+										"next",
+										"matche"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:05:24 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"uuid\": \"t2\",\n        \"date\": \"2024/2/06 ثلاثاء\",\n        \"time\": \"م 2:39\",\n        \"plan\": \"url\",\n        \"channel\": \"syria drama\",\n        \"round\": \"2\",\n        \"play_ground\": \"السبيل\",\n        \"team1\": {\n            \"name\": \"الوثبة\",\n            \"logo\": \"url\"\n        },\n        \"team2\": {\n            \"name\": \"الكرامة\",\n            \"logo\": \"url\"\n        },\n        \"result\": null,\n        \"player\": {\n            \"uuid\": \"t2\",\n            \"name\": \"suliman\",\n            \"high\": \"170cm\",\n            \"play\": \"CF\",\n            \"number\": \"10\",\n            \"born\": \"2024 فبراير 1\",\n            \"from\": \"syria\",\n            \"first_club\": \"alkarama\",\n            \"career\": \"any\",\n            \"image\": \"url\"\n        }\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						},
+						{
+							"name": "newnext_one",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "sport",
+											"value": "76694895-b12b-40d6-8ddd-2ed7b7f709ee",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/next/matche",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"next",
+										"matche"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 11 Feb 2024 23:22:01 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"uuid\": \"7835cc7f-b4b7-48f4-b414-c0012cc2812d\",\n        \"date\": \"2024/4/01 اثنين\",\n        \"time\": \"ص 5:10\",\n        \"plan\": \"https://alkarameh.cliprz.org/public/storage/plans/af3f2666-8e56-49ef-a9a5-2eed7aeb0fb8-plan.avif\",\n        \"channel\": \"syria drama\",\n        \"round\": \"10\",\n        \"play_ground\": \"any\",\n        \"team1\": {\n            \"uuid\": \"1561e39e-01bc-46bb-8dad-d74e906b82f0\",\n            \"name\": \"الوثبة\",\n            \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/03fb27ed-ea39-4114-a74d-8930b870b33e-club.avif\"\n        },\n        \"team2\": {\n            \"uuid\": \"017c4d00-e9e0-4a88-bdc0-30d4a60eed1d\",\n            \"name\": \"الكرامة\",\n            \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/0acdc910-992d-418d-8801-e2460aa0f3b0-club.webp\"\n        },\n        \"result\": null,\n        \"player\": {\n            \"uuid\": \"t123456789\",\n            \"name\": \"me\",\n            \"high\": \"180cm\",\n            \"play\": \"CF\",\n            \"number\": \"100\",\n            \"born\": \"2024 فبراير 1\",\n            \"from\": \"ssss\",\n            \"first_club\": \"jjjj\",\n            \"career\": \"jijii\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage\"\n        }\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "matche_details",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "matche",
+									"value": "091b7ef0-ac3d-43d4-8bb0-94f25183ce92",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/matche/details",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"matche",
+								"details"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "matche_details",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "matche",
+											"value": "t1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/matche/details",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"matche",
+										"details"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:05:38 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"beanched\": [\n            {\n                \"uuid\": \"t1\",\n                \"name\": \"majd\",\n                \"image\": \"url\"\n            },\n            {\n                \"uuid\": \"t2\",\n                \"name\": \"suliman\",\n                \"image\": \"url\"\n            }\n        ],\n        \"replacments\": [\n            {\n                \"uuid\": \"t1\",\n                \"inplayer\": {\n                    \"uuid\": \"t2\",\n                    \"name\": \"suliman\",\n                    \"high\": \"170cm\",\n                    \"play\": \"CF\",\n                    \"number\": \"10\",\n                    \"born\": \"2024 فبراير 1\",\n                    \"from\": \"syria\",\n                    \"first_club\": \"alkarama\",\n                    \"career\": \"any\",\n                    \"image\": \"url\"\n                },\n                \"outplayer\": {\n                    \"uuid\": \"t1\",\n                    \"name\": \"majd\",\n                    \"high\": \"170cm\",\n                    \"play\": \"GK\",\n                    \"number\": \"1\",\n                    \"born\": \"2024 فبراير 1\",\n                    \"from\": \"syria\",\n                    \"first_club\": \"الكرامة\",\n                    \"career\": \"play many times\",\n                    \"image\": \"url\"\n                }\n            }\n        ]\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "main_players",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "matche",
+									"value": "385de00b-67e6-4f25-b4a0-2b3eaed40199",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/matche/main/players",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"matche",
+								"main",
+								"players"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "main_players",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "matche",
+											"value": "091b7ef0-ac3d-43d4-8bb0-94f25183ce92",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/matche/main/players",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"matche",
+										"main",
+										"players"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 12 Feb 2024 11:52:12 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"uuid\": \"5058e4dd-afac-409b-a017-d4365dfdab4f\",\n            \"name\": \"majd\",\n            \"high\": \"180cm\",\n            \"play\": \"GK\",\n            \"number\": \"1\",\n            \"born\": \"1990 أبريل 4\",\n            \"age\": \"34\",\n            \"from\": \"syria\",\n            \"first_club\": \"alkarama\",\n            \"career\": \"any\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/players/35382bf9-9b59-475a-a935-c8b43fdf5083-player.webp\"\n        }\n    ],\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "beanched_player",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "matche",
+									"value": "385de00b-67e6-4f25-b4a0-2b3eaed40199",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/matche/beanched/players",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"matche",
+								"beanched",
+								"players"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "beanched_player",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "matche",
+											"value": "091b7ef0-ac3d-43d4-8bb0-94f25183ce92",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/matche/beanched/players",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"matche",
+										"beanched",
+										"players"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 12 Feb 2024 11:53:46 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"uuid\": \"3fa167d0-e1b3-4e28-a085-14c1afc394ad\",\n            \"name\": \"rifat\",\n            \"high\": \"180cm\",\n            \"play\": \"CF\",\n            \"number\": \"10\",\n            \"born\": \"1990 أبريل 4\",\n            \"age\": \"34\",\n            \"from\": \"syria\",\n            \"first_club\": \"alkarama\",\n            \"career\": \"ccdfdfdfdf\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/players/21ccbfbb-d3fa-446a-b6fb-ef0cd987b114-player.png\"\n        },\n        {\n            \"uuid\": \"e1d18ad6-4c1a-4e2a-99c3-7afd7ce99b35\",\n            \"name\": \"sleman\",\n            \"high\": \"180cm\",\n            \"play\": \"CM\",\n            \"number\": \"8\",\n            \"born\": \"1990 أبريل 4\",\n            \"age\": \"34\",\n            \"from\": \"syria\",\n            \"first_club\": \"alkarama\",\n            \"career\": \"any\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/players/a727aa2a-93fb-473f-940c-f00545766e53-player.webp\"\n        }\n    ],\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "News",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/news/all",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"news",
+								"all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/news/all",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"news",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:12:31 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"uuid\": \"t1\",\n            \"title\": \"title\",\n            \"content\": \"content\",\n            \"image\": \"url\",\n            \"type\": \"news\",\n            \"date\": \"منذ 5 أيام\",\n            \"statistics\": [\n                {\n                    \"name\": \"result\",\n                    \"value\": {\n                        \"first_team\": \"1\",\n                        \"second_team\": \"2\"\n                    }\n                },\n                {\n                    \"name\": \"البطاقات الصفراء\",\n                    \"value\": {\n                        \"first_team\": \"5\",\n                        \"second_team\": \"2\"\n                    }\n                }\n            ],\n            \"videos\": [\n                {\n                    \"uuid\": \"t2\",\n                    \"url\": \"url\",\n                    \"description\": \"any\"\n                }\n            ]\n        }\n    ],\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						},
+						{
+							"name": "newall",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/news/all",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"news",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 11 Feb 2024 22:27:33 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"uuid\": \"b17ff712-c3d0-4a4b-a880-0ff79a987018\",\n            \"title\": \"tilte\",\n            \"content\": \"content\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/news/fcbf581c-d468-4b55-a8f4-fdb828f6f01c-news.png\",\n            \"type\": \"news\",\n            \"date\": \"منذ 22 ساعة\",\n            \"statistics\": [\n                {\n                    \"name\": \"result\",\n                    \"value\": {\n                        \"0e7b8200-c317-48bd-888e-ba31e91de71f\": \"1\",\n                        \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\": \"2\"\n                    }\n                },\n                {\n                    \"name\": \"التسلل\",\n                    \"value\": {\n                        \"0e7b8200-c317-48bd-888e-ba31e91de71f\": \"2\",\n                        \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\": \"2\"\n                    }\n                },\n                {\n                    \"name\": \"testment\",\n                    \"value\": {\n                        \"0e7b8200-c317-48bd-888e-ba31e91de71f\": \"1\",\n                        \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\": \"2\"\n                    }\n                }\n            ],\n            \"club1\": {\n                \"uuid\": \"0e7b8200-c317-48bd-888e-ba31e91de71f\",\n                \"name\": \"الكرامة\",\n                \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/336d4f71-392f-47ff-8068-b59d369389a6-club.png\"\n            },\n            \"club2\": {\n                \"uuid\": \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\",\n                \"name\": \"الوثبة\",\n                \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/f71b216f-ca45-4bf5-83f4-50a1108a7e67-club.avif\"\n            },\n            \"videos\": []\n        },\n        {\n            \"uuid\": \"36b9066c-9d35-4c85-900e-5ada7f0e4507\",\n            \"title\": \"tilte\",\n            \"content\": \"content\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/news/f0250af5-3c43-4d6d-8bd8-cf97735c6567-news.webp\",\n            \"type\": \"news\",\n            \"date\": \"منذ 3 أيام\",\n            \"statistics\": [\n                {\n                    \"name\": \"result\",\n                    \"value\": {\n                        \"0e7b8200-c317-48bd-888e-ba31e91de71f\": \"1\",\n                        \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\": \"2\"\n                    }\n                },\n                {\n                    \"name\": \"التسلل\",\n                    \"value\": {\n                        \"0e7b8200-c317-48bd-888e-ba31e91de71f\": \"2\",\n                        \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\": \"2\"\n                    }\n                },\n                {\n                    \"name\": \"testment\",\n                    \"value\": {\n                        \"0e7b8200-c317-48bd-888e-ba31e91de71f\": \"1\",\n                        \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\": \"2\"\n                    }\n                }\n            ],\n            \"club1\": {\n                \"uuid\": \"0e7b8200-c317-48bd-888e-ba31e91de71f\",\n                \"name\": \"الكرامة\",\n                \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/336d4f71-392f-47ff-8068-b59d369389a6-club.png\"\n            },\n            \"club2\": {\n                \"uuid\": \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\",\n                \"name\": \"الوثبة\",\n                \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/f71b216f-ca45-4bf5-83f4-50a1108a7e67-club.avif\"\n            },\n            \"videos\": []\n        },\n        {\n            \"uuid\": \"a256e2ab-0d7e-4aae-955c-10e682494cb5\",\n            \"title\": \"tilte\",\n            \"content\": \"content\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/news/bd4f059a-9af0-439c-858f-e43528b84914-new.webp\",\n            \"type\": \"news\",\n            \"date\": \"منذ 3 أيام\",\n            \"statistics\": [],\n            \"club1\": null,\n            \"club2\": null,\n            \"videos\": []\n        }\n    ],\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Players",
+			"item": [
+				{
+					"name": "one_detailed",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "player",
+									"value": "0a2dc2d9-09de-46c8-bd81-87e5486e3bb9",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/player/details",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"player",
+								"details"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "one_detailed",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "player",
+											"value": "t1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/player/details",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"player",
+										"details"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:06:18 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"uuid\": \"t1\",\n        \"name\": \"majd\",\n        \"high\": \"170cm\",\n        \"play\": \"GK\",\n        \"number\": \"1\",\n        \"born\": \"2024 فبراير 1\",\n        \"from\": \"syria\",\n        \"first_club\": \"الكرامة\",\n        \"career\": \"play many times\",\n        \"image\": \"url\"\n    },\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/player/all",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"player",
+								"all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/player/all",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"player",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 11 Feb 2024 23:53:33 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"uuid\": \"3fa167d0-e1b3-4e28-a085-14c1afc394ad\",\n            \"name\": \"rifat\",\n            \"high\": \"180cm\",\n            \"play\": \"CF\",\n            \"number\": \"10\",\n            \"born\": \"1990 أبريل 4\",\n            \"from\": \"syria\",\n            \"first_club\": \"alkarama\",\n            \"career\": \"ccdfdfdfdf\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/players/21ccbfbb-d3fa-446a-b6fb-ef0cd987b114-player.png\"\n        },\n        {\n            \"uuid\": \"e1d18ad6-4c1a-4e2a-99c3-7afd7ce99b35\",\n            \"name\": \"sleman\",\n            \"high\": \"180cm\",\n            \"play\": \"CM\",\n            \"number\": \"8\",\n            \"born\": \"1990 أبريل 4\",\n            \"from\": \"syria\",\n            \"first_club\": \"alkarama\",\n            \"career\": \"any\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/players/a727aa2a-93fb-473f-940c-f00545766e53-player.webp\"\n        },\n        {\n            \"uuid\": \"5058e4dd-afac-409b-a017-d4365dfdab4f\",\n            \"name\": \"majd\",\n            \"high\": \"180cm\",\n            \"play\": \"GK\",\n            \"number\": \"1\",\n            \"born\": \"1990 أبريل 4\",\n            \"from\": \"syria\",\n            \"first_club\": \"alkarama\",\n            \"career\": \"any\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/players/35382bf9-9b59-475a-a935-c8b43fdf5083-player.webp\"\n        },\n        {\n            \"uuid\": \"f8c04115-3344-4a9c-a65b-2955ea195155\",\n            \"name\": \"any\",\n            \"high\": \"180cm\",\n            \"play\": \"CB\",\n            \"number\": \"4\",\n            \"born\": \"1990 أبريل 4\",\n            \"from\": \"syria\",\n            \"first_club\": \"alkarama\",\n            \"career\": \"any\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/players/fbe2824f-1aed-4852-99c6-93fc8dd4fa1a-player.webp\"\n        },\n        {\n            \"uuid\": \"135ee60f-1918-4b92-a115-36e3d077801c\",\n            \"name\": \"anyme\",\n            \"high\": \"180cm\",\n            \"play\": \"CB\",\n            \"number\": \"40\",\n            \"born\": \"1980 أبريل 4\",\n            \"from\": \"syria\",\n            \"first_club\": \"alkarama\",\n            \"career\": \"anydfdfdf\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/players/e2936388-afb8-40c6-82a1-21eb08b5329c-player.png\"\n        },\n        {\n            \"uuid\": \"t\",\n            \"name\": \"ff\",\n            \"high\": \"180cm\",\n            \"play\": \"LW\",\n            \"number\": \"100\",\n            \"born\": \"2024 فبراير 28\",\n            \"from\": \"jj\",\n            \"first_club\": \"jij\",\n            \"career\": \"jiijkj\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage\"\n        }\n    ],\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Associations",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/associations",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"associations"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/associations",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"associations"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 11:06:36 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"uuid\": \"t1\",\n            \"boss\": \"suliman\",\n            \"image\": \"url\",\n            \"description\": \"any description\",\n            \"country\": \"syria\",\n            \"members\": [\n                {\n                    \"uuid\": \"t1\",\n                    \"name\": \"rifat\"\n                }\n            ],\n            \"videos\": []\n        },\n        {\n            \"uuid\": \"t2\",\n            \"boss\": \"majd\",\n            \"image\": \"url\",\n            \"description\": \"any description\",\n            \"country\": \"syria\",\n            \"members\": [\n                {\n                    \"uuid\": \"t2\",\n                    \"name\": \"any\"\n                }\n            ],\n            \"videos\": []\n        }\n    ],\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "DashBoard",
+			"item": [
+				{
+					"name": "Sport",
+					"item": [
+						{
+							"name": "add",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"accept": true
+								}
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "كرة السلة",
+											"description": "required|string|min:3|max:255|unique:sports,name|not_regex:/^.*[0-9]+.*$/",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/sport/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"sport",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "name",
+													"value": "كرة القدم",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/sport/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"sport",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:05:13 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "sport_id",
+											"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+											"description": "required|string|min:10|max:40|exists:sports,uuid",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/sport/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"sport",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "sport_id",
+													"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+													"description": "required|string|min:10|max:40|exists:sports,uuid",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"description": "required|image|mimes:jpeg,jpg,png",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/sport/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"sport",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:08:57 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Seasone",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "2024/2025",
+											"description": "required|string|regex:/^[0-9]{4}\\/{1}[0-9]{4}$/",
+											"type": "text"
+										},
+										{
+											"key": "start_date",
+											"value": "2023-4-4",
+											"description": "required|date",
+											"type": "text"
+										},
+										{
+											"key": "end_date",
+											"value": "2024-4-10",
+											"description": "required|date|after:start_date",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/seasone/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"seasone",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "name",
+													"value": "2024/2025",
+													"description": "required|string|regex:/^[0-9]{4}\\/{1}[0-9]{4}$/",
+													"type": "text"
+												},
+												{
+													"key": "start_date",
+													"value": "2023-4-4",
+													"description": "required|date",
+													"type": "text"
+												},
+												{
+													"key": "end_date",
+													"value": "2024-4-10",
+													"description": "required|date|after:start_date",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/seasone/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"seasone",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:16:12 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Club",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "الكرامة",
+											"description": "required|string|min:3|max:255|not_regex:/^.*[0-9]+.*$/",
+											"type": "text"
+										},
+										{
+											"key": "address",
+											"value": "homs",
+											"description": "required|string|min:3|max:255",
+											"type": "text"
+										},
+										{
+											"key": "logo",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "sport_id",
+											"value": "42fc53ae-e53c-4e82-b940-da23f556b105",
+											"description": "required|string|min:10|max:40|exists:sports,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/club/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"club",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "name",
+													"value": "الكرامة",
+													"type": "text"
+												},
+												{
+													"key": "address",
+													"value": "homs",
+													"type": "text"
+												},
+												{
+													"key": "logo",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "sport_id",
+													"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/club/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"club",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:21:21 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "logo",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "club_id",
+											"value": "f5c18eb3-2a82-4ccd-9c57-e6ffcffb2aad",
+											"description": "required|string|min:10|max:40|exists:clubs,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/club/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"club",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "logo",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "club_id",
+													"value": "f5c18eb3-2a82-4ccd-9c57-e6ffcffb2aad",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/club/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"club",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:22:22 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Boss",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "sleman",
+											"description": "required|string|min:3|max:255|unique:bosses,name|not_regex:/^.*[0-9]+.*$/",
+											"type": "text"
+										},
+										{
+											"key": "start_year",
+											"value": "2024",
+											"description": "required|integer|min:1990|max:\" . Carbon::now()->year",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/boss/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"boss",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "name",
+													"value": "sleman",
+													"type": "text"
+												},
+												{
+													"key": "start_year",
+													"value": "2024",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/boss/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"boss",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:32:16 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "54"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "boss_id",
+											"value": "b71d90bc-0599-4fc2-9643-689936052c5a",
+											"description": "required|string|min:10|max:40|exists:bosses,uuid",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/boss/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"boss",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "boss_id",
+													"value": "b71d90bc-0599-4fc2-9643-689936052c5a",
+													"description": "required|string|min:10|max:40|exists:bosses,uuid",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"description": "required|image|mimes:jpeg,jpg,png",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/boss/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"boss",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:34:10 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Employee",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "rifat",
+											"description": "required|string|min:3|max:255|unique:employees,name|not_regex:/^.*[0-9]+.*$/",
+											"type": "text"
+										},
+										{
+											"key": "jop_type",
+											"value": "coach",
+											"description": "required|string|in:manager,coach",
+											"type": "text"
+										},
+										{
+											"key": "work",
+											"value": "coach",
+											"description": "required|string|unique:employees,work|not_regex:/^.*[0-9]+.*$/|min:2|max:255",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "sport_id",
+											"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+											"description": "required|string|min:10|max:40|exists:sports,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/employee/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"employee",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "name",
+													"value": "rifat",
+													"type": "text"
+												},
+												{
+													"key": "jop_type",
+													"value": "coach",
+													"type": "text"
+												},
+												{
+													"key": "work",
+													"value": "coach",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "sport_id",
+													"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/employee/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"employee",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:36:51 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "56"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "employee_id",
+											"value": "9dc33c6a-5fd8-491d-898f-f40d6c236a7b",
+											"description": "required|string|min:10|max:40|exists:employees,uuid",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "name",
+											"value": "sleman",
+											"description": "required|string|min:3|max:255|not_regex:/^.*[0-9]+.*$/|unique:employees,name,\" . ($this->emp = Employee::where(\"uuid\",$this->employee_id)->first())->id",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/employee/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"employee",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "employee_id",
+													"value": "9dc33c6a-5fd8-491d-898f-f40d6c236a7b",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "name",
+													"value": "sleman",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/employee/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"employee",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:40:09 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Association",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "boss",
+											"value": "rifat",
+											"description": "required|string|min:3|max:20|unique:associations,boss|not_regex:/^.*[0-9]+.*$/",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "description",
+											"value": "any of descr",
+											"description": "required|string|min:10|max:255",
+											"type": "text"
+										},
+										{
+											"key": "country",
+											"value": "syria",
+											"description": "required|string|min:3|max:255",
+											"type": "text"
+										},
+										{
+											"key": "sport_id",
+											"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+											"description": "required|string|min:10|max:40|exists:sports,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/association/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"association",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "boss",
+													"value": "rifat",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "description",
+													"value": "any of descr",
+													"type": "text"
+												},
+												{
+													"key": "country",
+													"value": "syria",
+													"type": "text"
+												},
+												{
+													"key": "sport_id",
+													"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/association/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"association",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:44:39 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "association_id",
+											"value": "e08ea6d8-ca30-4f93-8064-c40ebe87ea63",
+											"description": "required|string|min:10|max:40|exists:associations,uuid",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "boss",
+											"value": "rifat",
+											"description": "required|string|min:3|max:255|not_regex:/^.*[0-9]+.*$/|unique:associations,boss,\" . ($this->assoc = Association::where(\"uuid\",$this->association_id)->first())->id",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "description",
+											"description": "required|string|min:10|max:255",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/association/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"association",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "association_id",
+													"value": "e08ea6d8-ca30-4f93-8064-c40ebe87ea63",
+													"description": "required|string|min:10|max:40|exists:associations,uuid",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"description": "required|image|mimes:jpeg,jpg,png",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "boss",
+													"value": "rifat",
+													"description": "required|string|min:3|max:255|not_regex:/^.*[0-9]+.*$/|unique:associations,boss,\" . ($this->assoc = Association::where(\"uuid\",$this->association_id)->first())->id",
+													"type": "text"
+												},
+												{
+													"key": "description",
+													"value": "description",
+													"description": "required|string|min:10|max:255",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/association/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"association",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:50:32 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "TopFan",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "rifat",
+											"type": "text"
+										},
+										{
+											"key": "association_id",
+											"value": "e08ea6d8-ca30-4f93-8064-c40ebe87ea63",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/topfan/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"topfan",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "name",
+													"value": "rifat",
+													"type": "text"
+												},
+												{
+													"key": "association_id",
+													"value": "e08ea6d8-ca30-4f93-8064-c40ebe87ea63",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/topfan/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"topfan",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:51:49 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "56"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Video",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "url",
+											"value": "any/youtube.com",
+											"description": "required|string|min:5|max:255",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "this video for fans",
+											"description": "required|string|min:10|max:255",
+											"type": "text"
+										},
+										{
+											"key": "association_id",
+											"value": "e08ea6d8-ca30-4f93-8064-c40ebe87ea63",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "matche_id",
+											"value": "385de00b-67e6-4f25-b4a0-2b3eaed40199",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/video/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"video",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "url",
+													"value": "any/youtube.com",
+													"type": "text"
+												},
+												{
+													"key": "description",
+													"value": "this video for fans",
+													"type": "text"
+												},
+												{
+													"key": "association_id",
+													"value": "e08ea6d8-ca30-4f93-8064-c40ebe87ea63",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/video/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"video",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:53:07 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "url",
+											"value": "any/youtube.com",
+											"description": "required|string|min:5|max:255",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "this for club",
+											"description": "required|string|min:10|max:255",
+											"type": "text"
+										},
+										{
+											"key": "video_id",
+											"value": "bb0c11f9-9240-44ef-92a3-ac7f3de4eec2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/video/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"video",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "url",
+													"value": "any/youtube.com",
+													"description": "required|string|min:5|max:255",
+													"type": "text"
+												},
+												{
+													"key": "description",
+													"value": "this for club",
+													"description": "required|string|min:10|max:255",
+													"type": "text"
+												},
+												{
+													"key": "video_id",
+													"value": "bb0c11f9-9240-44ef-92a3-ac7f3de4eec2",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/video/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"video",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 00:58:23 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Information",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title",
+											"value": "tilte",
+											"description": "nullable|string|min:5|max:255",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "content",
+											"value": "content",
+											"description": "nullable|string|min:5|max:255",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "type",
+											"value": "strategy",
+											"description": "required|string|in:news,strategy,regular,slider",
+											"type": "text"
+										},
+										{
+											"key": "matche_id",
+											"value": "385de00b-67e6-4f25-b4a0-2b3eaed40199",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/information/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"information",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "title",
+													"value": "tilte",
+													"description": "nullable|string|min:5|max:255",
+													"type": "text"
+												},
+												{
+													"key": "content",
+													"value": "content",
+													"description": "nullable|string|min:5|max:255",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"description": "required|image|mimes:jpeg,jpg,png",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "type",
+													"value": "news",
+													"description": "required|string|in:news,strategy,regular,slider",
+													"type": "text"
+												},
+												{
+													"key": "matche_id",
+													"value": "091b7ef0-ac3d-43d4-8bb0-94f25183ce92",
+													"type": "text",
+													"disabled": true
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/information/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"information",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 01:01:52 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "information_id",
+											"value": "ecdace4b-6ce6-40fe-880e-f95f1351f7c1",
+											"description": "required|string|min:10|max:40|exists:information,uuid",
+											"type": "text"
+										},
+										{
+											"key": "title",
+											"value": "title",
+											"description": "required|string|min:5|max:255",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "content",
+											"description": "required|string|min:5|max:255",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/information/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"information",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "information_id",
+													"value": "ecdace4b-6ce6-40fe-880e-f95f1351f7c1",
+													"type": "text"
+												},
+												{
+													"key": "title",
+													"value": "title",
+													"type": "text"
+												},
+												{
+													"key": "content",
+													"value": "content",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/information/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"information",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 01:04:23 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Prime",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "هداف المجرة",
+											"description": "required|string|min:3|max:255|not_regex:/^.*[0-9]+.*$/",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "anyjjfjfjffjf",
+											"description": "required|string|min:10|max:255",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "type",
+											"value": "club",
+											"description": "required|string|in:personal,club",
+											"type": "text"
+										},
+										{
+											"key": "sport_id",
+											"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+											"description": "required|string|min:10|max:40|exists:seasones,uuid",
+											"type": "text"
+										},
+										{
+											"key": "seasone_id",
+											"value": "39882892-af4f-4d6c-af9d-7a85458b8635",
+											"description": "required|string|min:10|max:40|exists:sports,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/prime/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"prime",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "name",
+													"value": "هداف الدوري",
+													"type": "text"
+												},
+												{
+													"key": "description",
+													"value": "anyjjfjfjffjf",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "type",
+													"value": "personal",
+													"type": "text"
+												},
+												{
+													"key": "sport_id",
+													"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+													"type": "text"
+												},
+												{
+													"key": "seasone_id",
+													"value": "39882892-af4f-4d6c-af9d-7a85458b8635",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/prime/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"prime",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 01:07:46 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Player",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "sleman",
+											"description": "required|string|min:3|max:255|unique:players,name|not_regex:/^.*[0-9]+.*$/",
+											"type": "text"
+										},
+										{
+											"key": "high",
+											"value": "180",
+											"description": "required|integer|min:150|max:210",
+											"type": "text"
+										},
+										{
+											"key": "play",
+											"value": "CM",
+											"description": "required|string|in:GK,LB,CB,RB,LM,CM,AM,DM,RM,LW,CF,RW",
+											"type": "text"
+										},
+										{
+											"key": "number",
+											"value": "8",
+											"description": "required|integer|min:1|unique:players,number",
+											"type": "text"
+										},
+										{
+											"key": "born",
+											"value": "1999-4-4",
+											"description": "required|date|before_or_equal:\" . Carbon::now()->subYears(18) . \"|after_or_equal:\" . Carbon::now()->subYears(50)",
+											"type": "text"
+										},
+										{
+											"key": "from",
+											"value": "syria",
+											"description": "required|string|min:3|max:255",
+											"type": "text"
+										},
+										{
+											"key": "first_club",
+											"value": "alkarama",
+											"description": "required|string|min:3|max:255",
+											"type": "text"
+										},
+										{
+											"key": "career",
+											"value": "anyjfjfjf",
+											"description": "required|string|min:5|max:255",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "sport_id",
+											"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+											"description": "required|string|min:10|max:40|exists:sports,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/player/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"player",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "name",
+													"value": "sleman",
+													"description": "required|string|min:3|max:255|unique:players,name|not_regex:/^.*[0-9]+.*$/",
+													"type": "text"
+												},
+												{
+													"key": "high",
+													"value": "180",
+													"description": "required|integer|min:150|max:210",
+													"type": "text"
+												},
+												{
+													"key": "play",
+													"value": "CM",
+													"description": "required|string|in:GK,LB,CB,RB,LM,CM,AM,DM,RM,LW,CF,RW",
+													"type": "text"
+												},
+												{
+													"key": "number",
+													"value": "8",
+													"description": "required|integer|min:1|unique:players,number",
+													"type": "text"
+												},
+												{
+													"key": "born",
+													"value": "1999-4-4",
+													"description": "required|date|before_or_equal:\" . Carbon::now()->subYears(18) . \"|after_or_equal:\" . Carbon::now()->subYears(50)",
+													"type": "text"
+												},
+												{
+													"key": "from",
+													"value": "syria",
+													"description": "required|string|min:3|max:255",
+													"type": "text"
+												},
+												{
+													"key": "first_club",
+													"value": "alkarama",
+													"description": "required|string|min:3|max:255",
+													"type": "text"
+												},
+												{
+													"key": "career",
+													"value": "anyjfjfjf",
+													"description": "required|string|min:5|max:255",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"description": "required|image|mimes:jpeg,jpg,png",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "sport_id",
+													"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+													"description": "required|string|min:10|max:40|exists:sports,uuid",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/player/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"player",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 01:16:24 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "play",
+											"value": "CB",
+											"description": "required|string|in:GK,LB,CB,RB,LM,CM,AM,DM,RM,LW,CF,RW",
+											"type": "text"
+										},
+										{
+											"key": "number",
+											"value": "69",
+											"description": "required|integer|min:1|unique:players,number,\" . ($this->player = Player::where(\"uuid\",$this->player_id)->first())->id",
+											"type": "text"
+										},
+										{
+											"key": "career",
+											"value": "ccfjfjfj",
+											"description": "required|string|min:5|max:255",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "player_id",
+											"value": "0a2dc2d9-09de-46c8-bd81-87e5486e3bb9",
+											"description": "required|string|min:10|max:40|exists:players,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/player/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"player",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "play",
+													"value": "CB",
+													"description": "required|string|in:GK,LB,CB,RB,LM,CM,AM,DM,RM,LW,CF,RW",
+													"type": "text"
+												},
+												{
+													"key": "number",
+													"value": "69",
+													"description": "required|integer|min:1|unique:players,number,\" . ($this->player = Player::where(\"uuid\",$this->player_id)->first())->id",
+													"type": "text"
+												},
+												{
+													"key": "career",
+													"value": "ccfjfjfj",
+													"description": "required|string|min:5|max:255",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"description": "required|image|mimes:jpeg,jpg,png",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "player_id",
+													"value": "0a2dc2d9-09de-46c8-bd81-87e5486e3bb9",
+													"description": "required|string|min:10|max:40|exists:players,uuid",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/player/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"player",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 01:19:07 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Matche",
+					"item": [
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "when",
+											"value": "2024-4-01 10:20:00",
+											"description": "required|date|after:\" . ($s = Seasone::where(\"id\",($this->matche = Matche::where(\"uuid\",$this->matche_id)->first())->seasone_id)->first())->start_date . \"|before:\". $s->end_date .\"|$x\" . Carbon::now()",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "not_started",
+											"description": "\"required|string|in:not_started,finished\"",
+											"type": "text"
+										},
+										{
+											"key": "matche_id",
+											"value": "8fea971f-a8b7-4e11-af14-3a0e1f980c94",
+											"description": "required|string|min:10|max:40|exists:matches,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/matche/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"matche",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "when",
+													"value": "2024-4-01 10:20:00",
+													"description": "required|date|after:\" . ($s = Seasone::where(\"id\",($this->matche = Matche::where(\"uuid\",$this->matche_id)->first())->seasone_id)->first())->start_date . \"|before:\". $s->end_date .\"|$x\" . Carbon::now()",
+													"type": "text"
+												},
+												{
+													"key": "status",
+													"value": "not_started",
+													"description": "\"required|string|in:not_started,finished\"",
+													"type": "text"
+												},
+												{
+													"key": "matche_id",
+													"value": "c55f7d44-462b-471a-b60e-b81de7b9500b",
+													"description": "required|string|min:10|max:40|exists:matches,uuid",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/matche/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"matche",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 01:41:49 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "when",
+											"value": "2024-4-1",
+											"description": "required|date|after:\" . ($this->seasone = Seasone::where(\"uuid\",$this->seasone_id)->first())->start_date . \"|before:\" . $this->seasone->end_date . \"|\" . ($this->status == \"finished\")? \"before:\" : \"after:\" . Carbon::now()",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "not_started",
+											"description": "required|string|in:finished,not_started",
+											"type": "text"
+										},
+										{
+											"key": "plan",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "channel",
+											"value": "syria drama",
+											"description": "required|string|min:3|max:255",
+											"type": "text"
+										},
+										{
+											"key": "round",
+											"value": "12",
+											"description": "required|integer|min:1|max:100",
+											"type": "text"
+										},
+										{
+											"key": "play_ground",
+											"value": "any",
+											"description": "required|string|min:3|max:255",
+											"type": "text"
+										},
+										{
+											"key": "seasone_id",
+											"value": "39882892-af4f-4d6c-af9d-7a85458b8635",
+											"description": "required|string|min:10|max:40|exists:seasones,uuid",
+											"type": "text"
+										},
+										{
+											"key": "club1_id",
+											"value": "f5c18eb3-2a82-4ccd-9c57-e6ffcffb2aad",
+											"description": "required|string|min:10|max:40|exists:clubs,uuid",
+											"type": "text"
+										},
+										{
+											"key": "club2_id",
+											"value": "3226349f-3303-48d1-8f24-18767d8d1f64",
+											"description": "required|string|min:10|max:40|exists:clubs,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/matche/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"matche",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "when",
+													"value": "2023-11-1",
+													"description": "required|date|after:\" . ($this->seasone = Seasone::where(\"uuid\",$this->seasone_id)->first())->start_date . \"|before:\" . $this->seasone->end_date . \"|\" . ($this->status == \"finished\")? \"before:\" : \"after:\" . Carbon::now()",
+													"type": "text"
+												},
+												{
+													"key": "status",
+													"value": "not_started",
+													"description": "required|string|in:finished,not_started",
+													"type": "text"
+												},
+												{
+													"key": "plan",
+													"description": "required|image|mimes:jpeg,jpg,png",
+													"type": "file",
+													"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+												},
+												{
+													"key": "channel",
+													"value": "syria drama",
+													"description": "required|string|min:3|max:255",
+													"type": "text"
+												},
+												{
+													"key": "round",
+													"value": "12",
+													"description": "required|integer|min:1|max:100",
+													"type": "text"
+												},
+												{
+													"key": "play_ground",
+													"value": "any",
+													"description": "required|string|min:3|max:255",
+													"type": "text"
+												},
+												{
+													"key": "seasone_id",
+													"value": "39882892-af4f-4d6c-af9d-7a85458b8635",
+													"description": "required|string|min:10|max:40|exists:seasones,uuid",
+													"type": "text"
+												},
+												{
+													"key": "club1_id",
+													"value": "f5c18eb3-2a82-4ccd-9c57-e6ffcffb2aad",
+													"description": "required|string|min:10|max:40|exists:clubs,uuid",
+													"type": "text"
+												},
+												{
+													"key": "club2_id",
+													"value": "3226349f-3303-48d1-8f24-18767d8d1f64",
+													"description": "required|string|min:10|max:40|exists:clubs,uuid",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/matche/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"matche",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 01:30:43 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Plan",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "player_id",
+											"value": "661fde3c-dbbb-48aa-889c-aafc32f821de",
+											"description": "required|string|min:10|max:40|exists:players,uuid",
+											"type": "text"
+										},
+										{
+											"key": "matche_id",
+											"value": "385de00b-67e6-4f25-b4a0-2b3eaed40199",
+											"description": "required|string|min:10|max:40|exists:matches,uuid",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "main",
+											"description": "required|string|in:main,beanch",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/plan/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"plan",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "player_id",
+													"value": "0a2dc2d9-09de-46c8-bd81-87e5486e3bb9",
+													"description": "required|string|min:10|max:40|exists:players,uuid",
+													"type": "text"
+												},
+												{
+													"key": "matche_id",
+													"value": "385de00b-67e6-4f25-b4a0-2b3eaed40199",
+													"description": "required|string|min:10|max:40|exists:matches,uuid",
+													"type": "text"
+												},
+												{
+													"key": "status",
+													"value": "beanch",
+													"description": "required|string|in:main,beanch",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/plan/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"plan",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 01:58:23 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Replacment",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "inplayer_id",
+											"value": "0a2dc2d9-09de-46c8-bd81-87e5486e3bb9",
+											"description": "required|string|min:10|max:40|exists:players,uuid\"",
+											"type": "text"
+										},
+										{
+											"key": "outplayer_id",
+											"value": "661fde3c-dbbb-48aa-889c-aafc32f821de",
+											"description": "required|string|min:10|max:40|exists:players,uuid\"",
+											"type": "text"
+										},
+										{
+											"key": "matche_id",
+											"value": "385de00b-67e6-4f25-b4a0-2b3eaed40199",
+											"description": "required|string|min:10|max:40|exists:matches,uuid",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/replacement/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"replacement",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "inplayer_id",
+													"value": "0a2dc2d9-09de-46c8-bd81-87e5486e3bb9",
+													"type": "text"
+												},
+												{
+													"key": "outplayer_id",
+													"value": "661fde3c-dbbb-48aa-889c-aafc32f821de",
+													"type": "text"
+												},
+												{
+													"key": "matche_id",
+													"value": "385de00b-67e6-4f25-b4a0-2b3eaed40199",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/replacement/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"replacement",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 02:04:06 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Statistic",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"value\" : {\r\n    \"team1\":\"10\",\r\n    \"team2\":\"8\"\r\n},\r\n\"name\" : \"البطاقات الصفراء\",\r\n\"matche_id\" : \"385de00b-67e6-4f25-b4a0-2b3eaed40199\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server}}/statistc/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"statistc",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"value\" : {\r\n    \"team1\":\"1\",\r\n    \"team2\":\"14\"\r\n},\r\n\"name\" : \"الأخطاء\",\r\n\"matche_id\" : \"385de00b-67e6-4f25-b4a0-2b3eaed40199\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{server}}/statistc/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"statistc",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 02:20:16 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"value\" : {\r\n    \"team1\":\"1\",\r\n    \"team2\":\"2\"\r\n},\r\n\"statistic_id\" : \"e87b52f5-5354-4b12-93dd-53c23f4a46eb\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server}}/statistic/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"statistic",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"value\" : {\r\n    \"team1\":\"1\",\r\n    \"team2\":\"2\"\r\n},\r\n\"statistic_id\" : \"e87b52f5-5354-4b12-93dd-53c23f4a46eb\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{server}}/statistic/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"statistic",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 02:24:27 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Standing",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n            \"win\" :0,\r\n            \"lose\" :1,\r\n            \"draw\" :0,\r\n            \"diff\" : 0,\r\n            \"points\" :1 ,\r\n            \"play\" :1,\r\n            \"seasone_id\" : \"39882892-af4f-4d6c-af9d-7a85458b8635\",\r\n            \"club_id\" : \"9c3916fd-26b9-4d01-af03-d53af81d01b8\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server}}/standing/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"standing",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n            \"win\" :1,\r\n            \"lose\" :0,\r\n            \"draw\" :0,\r\n            \"diff\" : 0,\r\n            \"points\" :3 ,\r\n            \"play\" :1,\r\n            \"seasone_id\" : \"39882892-af4f-4d6c-af9d-7a85458b8635\",\r\n            \"club_id\" : \"f5c18eb3-2a82-4ccd-9c57-e6ffcffb2aad\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{server}}/standing/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"standing",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 02:26:03 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n            \"win\" :1,\r\n            \"lose\" :0,\r\n            \"draw\" :0,\r\n            \"diff\" : 0,\r\n            \"points\" :2 ,\r\n            \"play\" :1,\r\n            \"standing_id\" : \"e6019998-6b05-4c9e-af2e-ff71146f4ca0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server}}/standing/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"standing",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n            \"win\" :1,\r\n            \"lose\" :0,\r\n            \"draw\" :0,\r\n            \"diff\" : 3,\r\n            \"points\" :3 ,\r\n            \"play\" :1,\r\n            \"standing_id\" : \"779ebdc2-850c-46a7-97b9-a5138d22e203\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{server}}/standing/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"standing",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 15 Feb 2024 02:29:40 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Wear",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpeg,jpg,png",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "sport_id",
+											"value": "d56d7673-5e04-46a4-843c-65f1545c19c9",
+											"type": "text"
+										},
+										{
+											"key": "seasone_id",
+											"value": "39882892-af4f-4d6c-af9d-7a85458b8635",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/wear/add",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"wear",
+										"add"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "add",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "image",
+													"type": "file",
+													"src": "postman-cloud:///1eec5fac-340b-4e00-94f6-a22b76219b62"
+												},
+												{
+													"key": "sport_id",
+													"value": "ccbb4fbd-fa72-4e19-a122-f652dc99ecd7",
+													"type": "text"
+												},
+												{
+													"key": "seasone_id",
+													"value": "a2d1ad32-661d-4ca3-810e-e6ebf1dc8943",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{server}}/wear/add",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"wear",
+												"add"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 08 Feb 2024 01:36:07 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"insertion done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "image",
+											"type": "file",
+											"src": "postman-cloud:///1eec69f0-e27c-4090-bc7b-5a85c3511122"
+										},
+										{
+											"key": "wear_id",
+											"value": "85e248fd-a58d-45c5-b0b2-d051a57ae702",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/wear/update",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"wear",
+										"update"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "update",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "image",
+													"type": "file",
+													"src": "postman-cloud:///1eec60b4-9596-47c0-9422-3f897db3106a"
+												},
+												{
+													"key": "wear_id",
+													"value": "2fc70a0e-abf1-4903-b5d7-0f41bcb28925",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{server}}/wear/update",
+											"host": [
+												"{{server}}"
+											],
+											"path": [
+												"wear",
+												"update"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 08 Feb 2024 01:37:32 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.10"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": \"updating done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "admin@alkarameh.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "admin@12345alkarameh12345@admin",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/login",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "remote",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "email",
+											"value": "admin@alkarameh.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "admin@12345alkarameh12345@admin",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/login",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 13 Feb 2024 14:37:14 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.14"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=B%2F10F2hC4bz%2BgETdMqfexLUP8l4Ha%2B91%2FOCTDXaLkEfh4QoJlbEsUAH45mpGH8cCyE%2Fahtkhewn1tkPDH449D9qd%2Fjy2f%2BmAZw2zGnHPWCw2nuBIxyyaozfMB83hKJz5KfVCWJkNHw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "854dcee5cbdb0192-CDG"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"1|Qa0RDhzkNZoiDUboESPnXy90kXCTkRLEFWOOxKmU7e2e9dc1\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						},
+						{
+							"name": "login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "email",
+											"value": "admin@alkarameh.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "admin@12345alkarameh12345@admin",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/login",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 15 Feb 2024 00:02:32 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"1|oa6HysuTEgQKxHONBNxZU4fseFwp9eKHZZbTXW1H4042d6f0\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "logout",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|bjKNCSHsWZZYbu7rCrqvGzEBGhU87vxvDUhw00a63b022c69",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/logout",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "logout",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/logout",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"logout"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 11 Feb 2024 13:23:33 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "Vary",
+									"value": "Authorization"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": \"logout done\",\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sports",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/sport/all",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"sport",
+								"all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/sport/all",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"sport",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 11 Feb 2024 23:45:18 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"uuid\": \"ccbb4fbd-fa72-4e19-a122-f652dc99ecd7\",\n            \"name\": \"football\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/sports/bff5b3cd-4924-4ace-8cc8-bc4860b98e83-sport.png\"\n        },\n        {\n            \"uuid\": \"76694895-b12b-40d6-8ddd-2ed7b7f709ee\",\n            \"name\": \"basketball\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/sports/5483fa93-75e1-46a7-8bbb-1f9a4547a9d1-sport.avif\"\n        },\n        {\n            \"uuid\": \"ed30d0b0-8254-41ab-91c0-f71985e8b63b\",\n            \"name\": \"كرة القدم\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/sports/488ada7b-fdde-46a0-8154-9fe198f1b5fe-sport.webp\"\n        },\n        {\n            \"uuid\": \"11c3d53c-76c2-43fe-b295-5c0549686213\",\n            \"name\": \"tenes\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/sports/0e59cc64-057c-40a5-b23e-04c86bdacb10-sport.png\"\n        },\n        {\n            \"uuid\": \"cfb461ac-e20d-4614-8091-7cf9b0bc56cc\",\n            \"name\": \"تنس\",\n            \"image\": \"https://alkarameh.cliprz.org/public/storage/sports/9da8c75b-272b-4cc9-a7fd-3199a569aaf9-sport.png\"\n        }\n    ],\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Clubs",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "sport",
+									"value": "42fc53ae-e53c-4e82-b940-da23f556b105",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/club/all",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"club",
+								"all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "all",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "sport",
+											"value": "ccbb4fbd-fa72-4e19-a122-f652dc99ecd7",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server}}/club/all",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"club",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 11 Feb 2024 23:47:38 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.10"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"uuid\": \"0e7b8200-c317-48bd-888e-ba31e91de71f\",\n            \"name\": \"الكرامة\",\n            \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/336d4f71-392f-47ff-8068-b59d369389a6-club.png\"\n        },\n        {\n            \"uuid\": \"974b9e16-54e7-4b7d-929a-cf4d2a6e7ed8\",\n            \"name\": \"الوثبة\",\n            \"logo\": \"https://alkarameh.cliprz.org/public/storage/clubs/f71b216f-ca45-4bf5-83f4-50a1108a7e67-club.avif\"\n        }\n    ],\n    \"status\": true,\n    \"error\": null,\n    \"statusCode\": 200\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "server",
+			"value": "https://alkarameh.cliprz.org/api",
+			"type": "string"
+		}
+	]
+}
