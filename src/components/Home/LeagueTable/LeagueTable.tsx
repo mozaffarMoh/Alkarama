@@ -2,14 +2,18 @@ import "./LeagueTable.scss";
 import tableMenu from "../../../assets/images/Home/Table.png";
 import endPoints from "../../../api/endPoints";
 import usePost from "../../../api/usePost";
+import React from "react";
 
 const LeagueTable = () => {
   let body = {
     seasone: "39882892-af4f-4d6c-af9d-7a85458b8635",
     sport: "d56d7673-5e04-46a4-843c-65f1545c19c9",
   };
-  const [data]: any = usePost(endPoints.leagueTable, body);
-  console.log("from table : ", data);
+  const [data, getData]: any = usePost(endPoints.leagueTable, body);
+
+  React.useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <div className="league-table">

@@ -2,7 +2,9 @@ import "./CurrentMatch.scss";
 import currentMatchImage1 from "../../../assets/images/Home/current-match-1.svg";
 import currentMatchImage2 from "../../../assets/images/Home/current-match-2.svg";
 
-const CurrentMatch = () => {
+const CurrentMatch = ({ data }: any) => {
+
+  console.log('from current : ', data)
   return (
     <div className="current-match flexCenterColumn">
       <span>المباراة القادمة</span>

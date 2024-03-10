@@ -1,6 +1,4 @@
 import "./SlideHome.scss";
-import endPoints from "../../../api/endPoints";
-import useGet from "../../../api/useGet";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Navigation,
@@ -9,10 +7,9 @@ import {
   A11y,
   Autoplay,
 } from "swiper/modules";
+import slide from "../../../assets/images/Home/slide.png";
 
-const SlideHome = () => {
-  const [data] = useGet(endPoints.news);
-
+const SlideHome = ({ data }: any) => {
   return (
     <div className="slide-home">
       <Swiper
@@ -23,15 +20,10 @@ const SlideHome = () => {
         navigation
         pagination={{ clickable: true }}
       >
-        {data &&
-          data.map((item: any, index) => {
-            return (
-              <SwiperSlide className="home-slide-item" key={index}>
-                <img src={item.image} />
-                <p>{item.content}</p>
-              </SwiperSlide>
-            );
-          })}
+        <SwiperSlide className="home-slide-item">
+          <img src={slide} />
+          <p> الوثبة يصطدم بجبلة.. وأهلي حلب يستضيف الكرامة</p>
+        </SwiperSlide>
       </Swiper>
     </div>
   );
